@@ -1,0 +1,227 @@
+@font-face {
+  src: url(fonts/Augusta.ttf);
+  font-family: Augusta;
+}
+
+@font-face {
+  src: url(fonts/Cardinal.ttf);
+  font-family: Cardinal;
+}
+
+@font-face {
+  src: url(fonts/OfenbacherSchwabCAT.ttf);
+  font-family: Ofenbacher;
+}
+
+@font-face {
+  src: url(fonts/Wendell_v1.ttf);
+  font-family: Wendell;
+}
+
+@font-face {
+  src: url(fonts/Celtica-BoldOblique.ttf);
+  font-family: Celtica;
+}
+
+@font-face {
+  src: url(fonts/Blessed\ Personal\ Use.ttf);
+  font-family: Blessed;
+}
+
+* {
+  font-family: Augusta;
+  /* font-family: Cardinal; */
+  /* font-family: Ofenbacher; */
+  /* font-family: Wendell; */
+  /* font-family: Blessed; */
+  font-size: 30px;
+}
+
+.blessed {
+  font-family: Celtica;
+  font-size: 50px;
+}
+
+.blessed1 {
+  text-shadow: 0px -6px 6px cyan;
+}
+
+.blessed2 {
+  text-shadow: 0px -6px 6px red;
+}
+
+.blessed3 {
+  text-shadow: 0px -6px 6px orange;
+}
+
+.blessed4 {
+  text-shadow: 0px -6px 6px violet;
+}
+
+.blessed1 {
+  text-shadow: 0px -6px 6px cyan;
+}
+
+.blessed1:hover {
+  text-shadow: 0px -6px 6px cyan, 0px -9px 6px white;
+}
+
+.blessed2:hover {
+  text-shadow: 0px -6px 6px red, 0px -9px 6px white;
+}
+
+.blessed3:hover {
+  text-shadow: 0px -6px 6px orange, 0px -9px 6px white;
+}
+
+.blessed4:hover {
+  text-shadow: 0px -6px 6px violet, 0px -9px 6px white;
+}
+
+/* Body styles */
+body {
+  margin: 0;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: url(image/Rising.jpg);
+  background-size: cover;
+  color: #333;
+  height: auto;
+  overflow: auto;
+}
+
+/* Header styles */
+header {
+  background-color: maroon;
+  color: skyblue;
+  padding: 1px 0px 5px 0px;
+  text-align: center;
+  /* Sticky header */
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 6px 6px rgba(0, 255, 255);
+  z-index: 1000;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+/* Container styles */
+.container {
+  background: linear-gradient(violet, yellow, orange, red, skyblue, cyan);
+  color: black;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  /* border: solid red 2px; */
+}
+
+.container1 {
+  background: linear-gradient(violet, yellow, orange, red, skyblue, cyan);
+  color: black;
+  text-align: center;
+  width: 980px;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  /* border: solid red 2px; */
+}
+
+.container h2 {
+  margin-top: 10px;
+}
+
+.container h4 {
+  line-height: 25px;
+  text-align: center;
+}
+
+.container img {
+  transition: transform 0.3s;
+  width: 95%;
+  /* height: 95%; */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* border: solid red 2px; */
+}
+
+.container1 img {
+  transition: transform 0.3s;
+  width: 95%;
+  /* height: 95%; */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* border: solid red 2px; */
+}
+
+.container1 img:hover {
+  transform: scale(1.03);
+}
+
+.container:hover {
+  box-shadow: 6px -6px 10px white, -6px -6px 10px white, 6px 6px 10px white,
+    -6px 6px 10px white;
+}
+
+.button {
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(165, 42, 42, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: rgb(165, 42, 42, 0.8);
+  background-color: white;
+}
+
+/* Footer styles */
+footer {
+  background-color: maroon;
+  color: skyblue;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  /* Stick to the bottom */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0px -6px 6px violet;
+}
+
+/* Footer paragraph styles */
+footer p {
+  margin: 5px;
+}
+
+/* Footer image styles */
+footer img {
+  margin: 5px;
+}
+
+/* Hover effect for footer elements */
+footer :hover {
+  color: yellow;
+}
